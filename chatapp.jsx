@@ -70,11 +70,11 @@ ChatRoom = React.createClass({
         <h1>{this.props.chatroom}</h1>
         {messages.map(function(message, i) {
           // Lookup the user
-          // var user = Meteor.users.findOne({ _id: message.user });
+          var user = Meteor.users.findOne({ _id: message.user });
           var name = 'Unnamed';
-          // if (user && user.profile && user.profile.name) {
-            // name = user.profile.name;
-          // }
+          if (user && user.profile && user.profile.name) {
+            name = user.profile.name;
+          }
 
           return (
             <div className="message" key={i}>
@@ -113,4 +113,3 @@ RouteCore.map(function() {
   Routes.home = this.route('/', HomePage);
   Routes.chatroom = this.route('/chat/:chatroom1/:chatroom2', ChatRooms);
 });
-
