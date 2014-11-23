@@ -1,0 +1,29 @@
+/* CSS declarations go here */
+
+.name {
+    display: inline-block;
+    margin: 10px;
+}
+
+.body {
+    display: inline-block;
+    margin: 10px;
+}
+
+.timestamp {
+    display: inline-block;
+    margin: 10px;
+}
+
+.chatrooms {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+.chatrooms > * {
+    width: 50%;
+    float: left;
+}
