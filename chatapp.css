@@ -33,11 +33,8 @@
     background-color: #88DCB9
 
 }
-.chatrooms :first-child {
-    /*background-color: #FF5545*/
+/*.chatrooms :first-child {
+    background-color: #c35534
 
 }
-/*.chatrooms > * + .chatrooms> {
-    background-color: #551122
-
-}*/
+This doesn't select what I thought it would*/
