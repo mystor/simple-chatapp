@@ -2,17 +2,18 @@
 
 .name {
     display: inline-block;
-    margin: 10px;
+    margin: 1px;
 }
 
 .body {
     display: inline-block;
-    margin: 10px;
+    margin: 1px;
+
 }
 
 .timestamp {
     display: inline-block;
-    margin: 10px;
+    margin: 2px;
 }
 
 .chatrooms {
@@ -22,8 +23,21 @@
     bottom: 0;
     right: 0;
     padding: 10px;
-}
+    font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+    background-color: #88DCB9
+
+    }
 .chatrooms > * {
     width: 50%;
     float: left;
+    background-color: #88DCB9
+
 }
+.chatrooms :first-child {
+    /*background-color: #FF5545*/
+
+}
+/*.chatrooms > * + .chatrooms> {
+    background-color: #551122
+
+}*/

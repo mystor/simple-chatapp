@@ -78,9 +78,9 @@ ChatRoom = React.createClass({
 
           return (
             <div className="message" key={i}>
-              <span className="name">{name}</span>
+              <span className="timestamp">{message.timestamp.getHours().toString()+":"+message.timestamp.getMinutes().toString()}</span>
+              <span className="name">{name+":"}</span>
               <span className="body">{message.body}</span>
-              <span className="timestamp">{message.timestamp.toString()}</span>
             </div>
           );
         })}
