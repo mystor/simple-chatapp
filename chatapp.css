@@ -8,7 +8,6 @@
 .body {
     display: inline-block;
     margin: 1px;
-
 }
 
 .timestamp {
@@ -25,16 +24,11 @@
     padding: 10px;
     font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
     background-color: #88DCB9
+}
 
-    }
 .chatrooms > * {
     width: 50%;
     float: left;
     background-color: #88DCB9
-
 }
-/*.chatrooms :first-child {
-    background-color: #c35534
 
-}
-This doesn't select what I thought it would*/
